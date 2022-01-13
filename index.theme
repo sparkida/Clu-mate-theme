@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Clu
+Comment=Ambiant MATE Dark theme (perfected)
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Clu
+MetacityTheme=Clu
+IconTheme=ubuntu-mono-dark
+CursorTheme=mate
+CursorSize=24
+ButtonLayout=menu:minimize,maximize,close
+#BackgroundImage=/usr/share/themes/Clu/damsk.png
