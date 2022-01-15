@@ -1,4 +1,4 @@
-gtk-color-scheme = "base_color:#EBEBEB\nfg_color:#EBEBEB\ntooltip_fg_color:#EBEBEB\nselected_bg_color:#282935\nselected_fg_color:#EBEBEB\ntext_color:#EBEBEB\nbg_color:#282935\ntooltip_bg_color:#1e1e1e\nlink_color:#3768B7"
+gtk-color-scheme = "base_color:#282935\nfg_color:#292325\ntooltip_fg_color:#EBEBEB\nselected_bg_color:#2C507F\nselected_fg_color:#EBEBEB\ntext_color:#EBEBEB\nbg_color:#282935\ntooltip_bg_color:#1e1e1e\nlink_color:#3768B7"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -74,11 +74,11 @@ style "default" {
 	####################
 	# Color Definitions
 	####################
-	bg[NORMAL]        = "#282935"
-	bg[PRELIGHT]      = "#282935"
-	bg[SELECTED]      = "#282935"
-	bg[INSENSITIVE]   = "#282935"
-	bg[ACTIVE]        = "#282935"
+	bg[NORMAL]        = @bg_color
+	bg[PRELIGHT]      = shade (1.02, @bg_color)
+	bg[SELECTED]      = @selected_bg_color
+	bg[INSENSITIVE]   = shade (0.95, @bg_color)
+	bg[ACTIVE]        = shade (0.9, @bg_color)
 
 	fg[NORMAL]        = @fg_color
 	fg[PRELIGHT]      = @fg_color
@@ -92,9 +92,9 @@ style "default" {
 	text[INSENSITIVE] = shade (0.8, @fg_color)
 	text[ACTIVE]      = darker (@text_color)
 
-	base[NORMAL]      = "#282935"
+	base[NORMAL]      = @bg_color
 	base[PRELIGHT]    = shade (0.98, @bg_color)
-	base[SELECTED]    = "#2C507F"
+	base[SELECTED]    = "#2c507f"
 	base[INSENSITIVE] = shade (0.97, @bg_color)
 	base[ACTIVE]      = shade (0.94, @bg_color)
 
