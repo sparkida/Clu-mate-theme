@@ -11,4 +11,4 @@ IconTheme=ubuntu-mono-dark
 CursorTheme=mate
 CursorSize=24
 ButtonLayout=menu:minimize,maximize,close
-#BackgroundImage=/usr/share/themes/Clu/damsk.png
+BackgroundImage=/usr/share/themes/Clu/damsk.png
