@@ -44,7 +44,7 @@
 @define-color error_fg_color rgb (235, 235, 235);
 @define-color error_bg_color rgb (223, 56, 44);
 @define-color link_color @selected_bg_color;
-@define-color success_color #4e9a06;
+@define-color success_color #EA9C40;
 @define-color error_color #df382c;
 
 /* theme common colors */
@@ -80,7 +80,7 @@
  * notebook *
  ************/
 
-@define-color core_color_a #B9C0A9; /* Core color for green widgets in AmbiantMATE-Dark. */
+@define-color core_color_a #C0B8A9; /* Core color for green widgets in AmbiantMATE-Dark. */
 @define-color core_color_b shade(@bg_color, 0.86);
 
 @define-color notebook_bg_color shade(@core_color_b, 0.98);
@@ -107,7 +107,7 @@
  *******/
 @define-color osd_highlight #ffffff;
 @define-color osd_lowlight #525252;
-@define-color osd_base #0a1201;
+@define-color osd_base @bg_color;
 
 @define-color osd_fg #ededed;
 @define-color osd_bg alpha(@osd_base, 0.80);
@@ -163,7 +163,7 @@
 @define-color scrollbar_slider_hover_bg_color shade(@theme_bg_color, 0.83);
 
 @define-color progressbar_fill_a shade(@theme_selected_bg_color, 1.07);
-@define-color progressbar_fill_b shade(mix(@theme_selected_bg_color, green, 0.10), 0.91);
+@define-color progressbar_fill_b shade(mix(@theme_selected_bg_color, #282935, 0.10), 0.91);
 @define-color button_border_active shade(@theme_selected_bg_color, 0.95);
 
 @define-color osd_progressbar_background_a @dark_fg_color;

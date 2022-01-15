@@ -1,7 +1,7 @@
 * {
     -GtkArrow-arrow-scaling: 0.6;
-    -GtkHTML-link-color: #a7bb85; /* @link_color */
-    -GtkIMHtml-hyperlink-color: #a7bb85; /* @link_color */
+    -GtkHTML-link-color: #4671CA; /* @link_color */
+    -GtkIMHtml-hyperlink-color: #4671CA; /* @link_color */
     -GtkScrolledWindow-scrollbar-spacing: 0;
     -GtkTextView-error-underline-color: #df382c; /* @error_color doesn't work due to a gtk bug */
     -GtkToolButton-icon-spacing: 6;
@@ -2177,7 +2177,7 @@ levelbar block.filled {
     border-width: 1px;
     border-style: solid;
     border-color: @selected_bg_color;
-    background-color: #8FAF53;
+    background-color: #282935;
 }
 
 levelbar.continuous block.filled {
@@ -3710,8 +3710,9 @@ list row.activatable:selected {
 .background.osd {
 	color: @osd_fg;
 	background-image: none;
-	background-color: @osd_bg;
-	border-radius:20px;
+	background-color: shade(@osd_bg, 1.35);
+  border-radius: 3px;
+  border: 1px solid shade(@bg_color, 1.9);
 }
 
 overlay.osd {
@@ -3747,7 +3748,7 @@ button.osd:focus:hover:active {
 button.osd,
 button.osd:hover,
 button.osd:checked {
-    background-color: shade(@osd_bg, 1.10);
+    background-color: shade(@osd_bg, 2.10);
     border-radius: 5px;
     border-color: @osd_button_border;
 }
@@ -4502,5 +4503,5 @@ entry.search {
 
 *:link,
 *:visited {
-    color: #a7bb85; /* @link_color */
+    color: #4671CA; /* @link_color */
 }
