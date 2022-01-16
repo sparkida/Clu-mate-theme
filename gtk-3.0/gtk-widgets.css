@@ -3715,6 +3715,11 @@ list row.activatable:selected {
   border: 1px solid shade(@bg_color, 1.9);
 }
 
+/* alt-tab popup selection
+.osd image:selected {
+}
+*/
+
 overlay.osd {
     background-color: transparent;
 }

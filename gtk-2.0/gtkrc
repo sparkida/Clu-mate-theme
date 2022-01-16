@@ -1,4 +1,4 @@
-gtk-color-scheme = "base_color:#282935\nfg_color:#292325\ntooltip_fg_color:#EBEBEB\nselected_bg_color:#2C507F\nselected_fg_color:#EBEBEB\ntext_color:#EBEBEB\nbg_color:#282935\ntooltip_bg_color:#1e1e1e\nlink_color:#3768B7"
+gtk-color-scheme = "base_color:#282935\nfg_color:#EBEBEB\ntooltip_fg_color:#EBEBEB\nselected_bg_color:#2C507F\nselected_fg_color:#EBEBEB\ntext_color:#EBEBEB\nbg_color:#282935\ntooltip_bg_color:#1e1e1e\nlink_color:#3768B7"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
